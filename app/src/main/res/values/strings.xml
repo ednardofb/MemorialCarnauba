@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Memorial Carnaúba</string>
+    <string name="carna_ba">Carnaúba</string>
+    <string name="acaap">ACAAP</string>
+    <string name="relatos">Relatos</string>
+    <string name="contatos">Contatos</string>
+    <string name="quem_somos"><b>Quem somos</b></string>
+    <string name="nossa_hist_ria"><br>Nossa História</br></string>
+    <string name="textHistoria"> Iniciamos o projeto em 2010 com a fundação
+                                 da Associação Cultural dos Artesãos, Artistas
+                                 e Produtores Rurais de Jaguaruana – ACAAP,
+                                 entidade sem fins lucrativos, que iniciou todos
+                                 os trabalhos na região do Vale do Jaguaribe e que
+                                 teve atuação e projeção regional, estadual,
+                                 nacional e internacional com a marca MEMORIAL CARNAÚBA.
+                                 O Projeto iniciou em maio de 2011 com uma das ações
+                                 da Rede Globo, a Ação Global no município de Jaguaruana,
+                                 com muitas atividades entre elas a inauguração do Memorial
+                                 Carnaúba, em um galpão centenário no centro da cidade com
+                                 a parceria da Fiec, Sindicarnaúba, BNB, Câmara Setorial da Carnaúba. </string>
+    <string name="nossaMissao">Missão</string>
+    <string name="Missao">Missão</string>
+    <string name="textMissao">Defender todas as políticas publica de interesse comunitário, parcerias com órgãos e empresas para o desenvolvimento de tecnologias alternativas, promovendo novos programas de qualificação dos artistas, artesãos e produtores rurais visando a sua inserção no mercado de trabalho em projetos de conservação e preservação do bioma caatinga dentro do perfil para a educação ambiental contra os desmatamentos dos carnaubais e arvores nativas .  Nossa maior missão é aprofundar os debates e as reflexões sobre a atual realidade da carnaúba no Ceará, apresentando as situações que se encontram os impactos causados pelos desmatamentos nas áreas de carnaubais.  Contribuir para a promoção, proteção e do uso sustentável da carnaúba e a relação responsável do homem.  Criar novas iniciativas de proteção e do uso sustentável da carnaúba no meio em que vivemos. Valorizar e resgatar o artesanato regional e a comercialização do artesanato com as práticas de produção com o aproveitamento dos produtos .  Promover eventos locais e a nível regional entre as comunidades e propriedades familiares por meio de festas regionais, eventos técnico-científico, feiras de produtos e exposições com o objetivo de desenvolver de forma organizada as atividades sociais , artísticas , culturais ,ambientais e econômicas .  Aprimorar e divulgar novas tecnologias com o equipamento Secador Solar para o extrativismo da carnaúba , na secagem da palha para a retirada do pó cetrífero, garantindo mais rentabilidade ao produtor</string>
+    <string name="QuemFaz">Quem faz</string>
+</resources>
