@@ -4,117 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntoMenu1"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginTop="25sp"
-        app:srcCompat="@drawable/memorial" />
-    <ImageView
-        android:id="@+id/menu1"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
-        app:srcCompat="@drawable/menu_quemsomos110"
-        android:layout_below="@id/imageView"
-        android:layout_marginLeft="45dp" />
-            <TextView
-                android:id="@+id/textQuemSomos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/menu1"
-                android:text="Quem somos"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="57dp"
-                android:textSize="15sp"/>
-    <ImageView
-        android:id="@+id/menu2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
-        app:srcCompat="@drawable/menu_acaap110"
-        android:layout_below="@id/imageView"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="45dp"/>
-            <TextView
-                android:id="@+id/textAcaap"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/menu2"
-                android:layout_alignParentRight="true"
-                android:text="@string/acaap"
-                android:layout_marginRight="75dp"
-                android:layout_marginTop="5dp"
-                android:textSize="15sp"/>
-    <ImageView
-        android:id="@+id/menu3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
-        app:srcCompat="@drawable/menu_carnauba110"
-        android:layout_below="@id/textQuemSomos"
-        android:layout_marginLeft="45dp"/>
-            <TextView
-                android:id="@+id/textCarnauba"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/menu3"
-                android:text="@string/carna_ba"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="5dp"
-                android:textSize="15sp"/>
+        >
+
         <ImageView
-        android:id="@+id/menu4"
+            android:id="@+id/imageViewQuemSomos"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/menu_quemsomoslargoedicao" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntomenu2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
-        app:srcCompat="@drawable/menu_relatos110"
-        android:layout_below="@id/textAcaap"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="45dp"/>
-            <TextView
-                android:id="@+id/textRelatos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/menu4"
-                android:text="@string/relatos"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="74dp"
-                android:layout_marginTop="5dp"
-                android:textSize="15sp"/>
+        android:layout_below="@id/relativeLayoutConjuntoMenu1"
+     >
 
-    <ImageView
-        android:id="@+id/menu5"
+        <ImageView
+            android:id="@+id/imageViewAcaap"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/menu_acaaplargoedicao" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntoMenu3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textRelatos"
-        android:layout_marginTop="20dp"
-        app:srcCompat="@drawable/menu_contatos110" />
-        <TextView
-            android:id="@+id/textContatos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/menu5"
-            android:layout_marginTop="5dp"
-            android:text="@string/contatos"
-            android:textSize="15sp"
-            android:textAlignment="center"/>
+        android:layout_below="@id/relativeLayoutConjuntomenu2"
+       >
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="79dp"
-        android:layout_height="172dp"
-        android:layout_alignParentBottom="true"
-        app:srcCompat="@drawable/img_carnauba" />
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="79dp"
-        android:layout_height="172dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        app:srcCompat="@drawable/img_carnauba" />
+        <ImageView
+            android:id="@+id/imageViewCarnauba"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/menu_carnaubalargoedicao" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntomenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutConjuntoMenu3"
+       >
+
+        <ImageView
+            android:id="@+id/imageViewContatos"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/menu_contatoslargoedicao" />
+
+    </RelativeLayout>
+
 
 
 </RelativeLayout>

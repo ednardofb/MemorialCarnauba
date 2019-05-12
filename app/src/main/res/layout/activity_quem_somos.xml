@@ -1,81 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuemSomos">
 
-    <ScrollView
-        android:id="@+id/scrollViewQuemSomos"
-        android:layout_width="wrap_content"
-        android:layout_height="686dp"
-        android:layout_below="@id/textView"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="#00EC0808"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
-            <TextView
-                android:id="@+id/textViewNosssaHistoria"
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10sp"
-                android:text="@string/nossa_hist_ria"
-                android:textAlignment="center"
-                android:textColor="#008577"
-                android:textSize="20sp" />
+                android:id="@+id/relativeLayoutNossaHistoria"
+                >
 
-            <TextView
-                android:id="@+id/textViewDescricaoHistoria"
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:layout_below="@id/textViewNosssaHistoria"
-                android:layout_marginTop="8dp"
-                android:padding="10dp"
-                android:text="@string/textHistoria"
-                android:textColor="#008577" />
+                <TextView
+                    android:id="@+id/textViewNosssaHistoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:padding="5dp"
+                    android:text="@string/nossa_historia"
+                    android:textAlignment="center"
+                    android:textColor="#008577"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textViewDescricaoHistoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:textSize="17sp"
+                    android:layout_below="@id/textViewNosssaHistoria"
+                    android:text="@string/textHistoria"/>
+
+            </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/relativeLayoutMissao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/textViewDescricaoHistoria"
+                android:layout_below="@id/relativeLayoutNossaHistoria"
                 android:layout_marginTop="10dp"
                 android:background="#008577"
-                android:orientation="vertical"
-                android:padding="10dp">
+                android:orientation="vertical">
 
 
                 <TextView
                     android:id="@+id/textViewMissao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
                     android:text="@string/Missao"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
 
-                <TextView
-                    android:id="@+id/textViewdescricaoMissao"
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textViewDescricaoMissao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/textViewMissao"
-                    android:layout_marginTop="14dp"
-                    android:text="@string/textMissao"
-                    android:textColor="#FFFFFF" />
-
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="22dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/textDescricaoMissao"/>
 
             </RelativeLayout>
 
@@ -84,7 +79,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/relativeLayoutMissao"
                 android:layout_marginTop="10dp"
-                android:padding="10dp"
                 android:id="@+id/relativeLayoutQuemFaz">
 
                 <TextView
@@ -93,32 +87,71 @@
                     android:layout_height="wrap_content"
                     android:text="@string/QuemFaz"
                     android:textAlignment="center"
+                    android:padding="5dp"
                     android:textColor="#008577"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_below="@id/textViewQuemFaz"
+                    android:id="@+id/textViewNomeAfro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/afroMoura"
+                    android:textAlignment="center"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
 
                 <ImageView
-                    android:layout_marginTop="-200sp"
-                    android:layout_below="@id/textViewQuemFaz"
+                    android:layout_marginTop="-180dp"
+                    android:layout_below="@id/textViewNomeAfro"
                     android:id="@+id/imageViewQuemFaz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/quemfaz" />
+                    app:srcCompat="@drawable/quemfaz"
+                    />
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_marginTop="-170dp"
+                    android:id="@+id/textViewSobreAfro"
+                    android:layout_below="@id/imageViewQuemFaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sobreAfroMoura"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="22dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#008577"/>
+
+                <TextView
+
+                    android:id="@+id/textViewNomeDaisy"
+                    android:layout_below="@id/textViewSobreAfro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="17sp"
+                    android:text="Daisy De Miranda Rocha"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:id="@+id/imageViewDay"
+                    android:layout_below="@id/textViewNomeDaisy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/day"
+                    android:layout_marginTop="-140dp"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_below="@id/imageViewDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sobreDai"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="#008577"
+                    android:layout_marginTop="-150dp"/>
             </RelativeLayout>
 
         </RelativeLayout>
 
-    </ScrollView>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-
-        android:text="@string/quem_somos"
-        android:textAlignment="center"
-        android:textColor="#008577"
-        android:textSize="25sp" />
-
-
-</RelativeLayout>
+</ScrollView>

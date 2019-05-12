@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntoMenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:id="@+id/imageViewQuemSomos"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/menu_quemsomos_banner" />
+
+        <TextView
+            android:id="@+id/textViewMenuQuemSomos"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#B05A4B4B"
+            android:text="Quem somos"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntomenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutConjuntoMenu1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageViewAcaap"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/menu_acaap_banner" />
+
+        <TextView
+            android:id="@+id/textViewMenuAcaap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#B05A4B4B"
+            android:text="@string/acaap"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntoMenu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutConjuntomenu2"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageViewCarnauba"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/menu_carnauba_banner" />
+
+        <TextView
+            android:id="@+id/textViewMenuCarnauba"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:background="#B05A4B4B"
+            android:text="@string/carnauba"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConjuntomenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutConjuntoMenu3"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/imageViewContatos"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/menu_contatos_banner" />
+
+        <TextView
+            android:id="@+id/textViewMenuContatos"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:background="#B05A4B4B"
+            android:text="@string/contatos"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -7,11 +7,11 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class QuemSomos extends AppCompatActivity {
-    private ImageView voltar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quem_somos);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 }
