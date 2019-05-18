@@ -1,12 +1,7 @@
 <resources>
     <string name="app_name">Memorial Carnaúba</string>
-    <string name="carnauba">Carnaúba</string>
-    <string name="acaap">ACAAP</string>
-    <string name="relatos">Relatos</string>
-    <string name="contatos">Contatos</string>
-    <string name="quem_somos"><b>Quem somos</b></string>
-    <string name="nossa_historia">Nossa História</string>
-    <string name="textHistoria"> Iniciamos o projeto em 2010 com a fundação
+    <string name="Titulo_Nossa_Historia">Nossa História</string>
+    <string name="Descricao_Historia"> Iniciamos o projeto em 2010 com a fundação
                                  da Associação Cultural dos Artesãos, Artistas
                                  e Produtores Rurais de Jaguaruana – ACAAP,
                                  entidade sem fins lucrativos, que iniciou todos
@@ -18,9 +13,8 @@
                                  com muitas atividades entre elas a inauguração do Memorial
                                  Carnaúba, em um galpão centenário no centro da cidade com
                                  a parceria da Fiec, Sindicarnaúba, BNB, Câmara Setorial da Carnaúba. </string>
-    <string name="nossaMissao">Missão</string>
-    <string name="Missao">Missão</string>
-    <string name="textDescricaoMissao">Defender todas as políticas pública de
+    <string name="Titulo_Missao">Missão</string>
+    <string name="Descricao_Missao">Defender todas as políticas pública de
                                         interesse comunitário, parcerias com órgãos
                                         e empresas para o desenvolvimento de tecnologias
                                         alternativas, promovendo novos programas de qualificação
@@ -45,10 +39,36 @@
                                         tecnologias com o equipamento Secador Solar para o extrativismo
                                         da carnaúba, na secagem da palha para a retirada do pó cetrífero,
                                         garantindo mais rentabilidade ao produtor</string>
-    <string name="QuemFaz">Quem faz</string>
-    <string name="labelQuemSomos">Quem Somos</string>
-    <string name="quemsomos">Quem somos</string>
-    <string name="afroMoura">Afro Moura Negrão Jr.</string>
-    <string name="sobreAfroMoura">Afro M. Negrão Júnior,produtor Cultural e artesão, Publicitário e ambientalista com atuação em diversos segmentos e veículos na área de Comunicação e Marketing. Desde 1979 atua seus trabalhos voltados para a área Cultural e artística de Eventos em geral, no planejamento, elaboração, execução de projetos, captação de recursos, planos de trabalhos, prestação de contas, execução e gerenciamento do projeto, de acordo com o planejamento estabelecido. Além de presidente do Memorial Carnauba e da Associação dos Moradores Sitio Volta atua como coordenador executivo do PONTO DE CULTURA Armazém da Carnaúba: Arte e Memoria desde 2011 e busca politicas públicas e administra trabalhos sócio ambientais e artísticos onde as comunidades envolvidas participam e desenvolvem iniciativas importantes para o seu fortalecimento. A responsabilidade em transformar as dificuldades em valores faz dos movimentos culturais um elo importante entreartistas, artesões, produtores rurais que cuidam do seu habitat. Afro sempre buscando inovações e a valorização do terceiro Setor como braço direito do Governo Estadual.</string>
-    <string name="sobreDai">Daisy de Miranda Rocha iniciou suas atividades em 1987 nas ações artísticas , culturais e para o turismo. Formada em turismo iniciou nas comunidades com o turismo rural no Ceará,principalmente nas zonas rurais de maior vulnerabilidade e falta de recursos e de políticas públicas que assistem os moradores carentes e com necessidades especiais . Como voluntária em projetos e ações em Jaguaruana e na região do Vale do Jaguaribe, organizando diversos trabalhos, participações em conferências, feiras, seminários e reuniões de grupos de extrativistas, artistas, artesãos e produtores rurais com a missão de organizar a produção e expor as peças produzidas e confeccionadas no artesanato da palha ,do talo e dopapel da carnaúba no Ceará. Os projetos e editais aprovados qualificaram e multiplicaram os conhecimentos e os saberes populares. Em 1990 como produtora cultural organizou diversos trabalhos gráfico-visual como a revista Ceará Magazine e outras, guias turísticos, livros e editoriais sobre o Ceará. Participou de diversos projetos como: Fundação do Memorial Carnaúba em 2011 em Jaguaruana, em um prédio centenário alugado no centro da cidade e reformado para esse fim cultural , onde iniciou o maior projeto de valorização da cultura da carnaúba, onde foram organizados muitos momentos para a classe artística do Vale do Jaguaribe com o envolvimento e participação dos municípios de Russas, Aracati, Quixeré , Palhano, Limoeiro do Norte, Itaiçaba e Jaguaruana .</string>
+    <string name="Titulo_QuemFaz">Quem faz</string>
+    <string name="label_QuemSomos">Quem Somos</string>
+    <string name="Nome_afroMoura">Afro Moura Negrão Jr.</string>
+    <string name="Descricao_AfroMoura">Afro M. Negrão Júnior,produtor Cultural e
+        artesão, Publicitário e ambientalista com atuação em diversos segmentos e
+        veículos na área de Comunicação e Marketing. Desde 1979 atua seus trabalhos
+        voltados para a área Cultural e artística de Eventos em geral, no planejamento,
+        elaboração, execução de projetos, captação de recursos, planos de trabalhos,
+        prestação de contas, execução e gerenciamento do projeto, de acordo com o
+        planejamento estabelecido. Além de presidente do Memorial Carnauba e da Associação dos
+        Moradores Sitio Volta atua como coordenador executivo do PONTO DE CULTURA Armazém da
+        Carnaúba: Arte e Memoria desde 2011 e busca politicas públicas e administra trabalhos
+        sócio ambientais e artísticos onde as comunidades envolvidas participam e desenvolvem
+        iniciativas importantes para o seu fortalecimento. A responsabilidade em transformar
+        as dificuldades em valores faz dos movimentos culturais um elo importante entreartistas,
+        artesões, produtores rurais que cuidam do seu habitat. Afro sempre buscando inovações
+        e a valorização do terceiro Setor como braço direito do Governo Estadual.</string>
+    <string name="Descricao_Dai">Daisy de Miranda Rocha iniciou suas atividades em 1987 nas ações artísticas,
+        culturais e para o turismo. Formada em turismo iniciou nas comunidades com o turismo rural no Ceará,
+        ]principalmente nas zonas rurais de maior vulnerabilidade e falta de recursos e de políticas públicas
+        que assistem os moradores carentes e com necessidades especiais . Como voluntária em projetos e ações
+        em Jaguaruana e na região do Vale do Jaguaribe, organizando diversos trabalhos, participações em conferências,
+        feiras, seminários e reuniões de grupos de extrativistas, artistas, artesãos e produtores rurais com a missão
+        de organizar a produção e expor as peças produzidas e confeccionadas no artesanato da palha ,do talo e dopapel
+        da carnaúba no Ceará. Os projetos e editais aprovados qualificaram e multiplicaram os conhecimentos e os saberes
+        populares. Em 1990 como produtora cultural organizou diversos trabalhos gráfico-visual como a revista Ceará Magazine
+        e outras, guias turísticos, livros e editoriais sobre o Ceará. Participou de diversos projetos como: Fundação do Memorial
+        Carnaúba em 2011 em Jaguaruana, em um prédio centenário alugado no centro da cidade e reformado para esse fim cultural,
+        onde iniciou o maior projeto de valorização da cultura da carnaúba, onde foram organizados muitos momentos para a classe
+        artística do Vale do Jaguaribe com o envolvimento e participação dos municípios de Russas, Aracati, Quixeré , Palhano,
+        Limoeiro do Norte, Itaiçaba e Jaguaruana.</string>
+    <string name="Nome_Daisy">Daisy De Miranda Rocha</string>
 </resources>
