@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carnauba">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayoutHistoria"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/textViewHistoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:padding="5dp"
+                android:text="@string/Titulo_Historia"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_below="@+id/textViewHistoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="22sp"
+                android:text="@string/textView_DescricaoHsitoria"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_below="@+id/relativeLayoutHistoria">
+
+            <TextView
+                android:id="@+id/textView_Produtos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Produtos originados da Carnaúba"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:id="@+id/dotsLayoutProdutos"
+                android:layout_below="@+id/textView_Produtos"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"></LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/slideViewPagerProdutos"
+                android:layout_marginTop="-40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dotsLayoutProdutos"></android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

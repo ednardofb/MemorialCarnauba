@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acaap">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayoutOqueE">
+
+            <TextView
+                android:id="@+id/textViewOqueE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:padding="5dp"
+                android:text="@string/o_que"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+           <me.biubiubiu.justifytext.library.JustifyTextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/textViewDescricaoOqueE"
+               android:layout_marginLeft="22dp"
+               android:textColor="@color/colorPrimary"
+               android:textSize="17sp"
+               android:layout_below="@id/textViewOqueE"
+               android:text="@string/Descricao_OqueE"
+               />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutACAAPImagesSlide"
+            android:layout_below="@id/relativeLayoutOqueE"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:id="@+id/dotsLayoutACAAP"
+                android:layout_below="@+id/textViewQuemFaz"
+                android:layout_width="50dp"
+                android:layout_height="30dp"></LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:layout_marginTop="-10dp"
+                android:id="@+id/slideViewPagerACAAP"
+                android:layout_below="@id/dotsLayoutACAAP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayoutProposicao"
+            android:layout_below="@id/relativeLayoutACAAPImagesSlide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/textViewProposicao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:padding="5dp"
+                android:text="@string/textView_proposicao"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewDescricaoProposicao"
+                android:layout_marginLeft="22dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:layout_below="@id/textViewProposicao"
+                android:text="@string/DescricaoProposicao" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@id/relativeLayoutProposicao"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            >
+
+            <TextView
+                android:id="@+id/textViewProjetos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:padding="5dp"
+                android:text="@string/textView_Projetos"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/textView_nomeProjeto1"
+                android:layout_below="@id/textViewProjetos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/Nome_projeto1"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/textView_nomeProjeto2"
+                android:layout_below="@id/textView_nomeProjeto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:text="@string/Nome_Projeto2"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+
+                android:id="@+id/textView_nomeProjeto3"
+                android:layout_below="@id/textView_nomeProjeto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Nome_Projeto3"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+
+                android:id="@+id/textView_nomeProjeto4"
+                android:layout_below="@id/textView_nomeProjeto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Nome_Projeto4"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -22,11 +22,12 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                //Após 5 segundos vai abrir a mainActivity
+
                 startActivity(new Intent(getBaseContext(), MainActivity.class));
                 //Para evitar que quando apertar em voltar o usuário volte para a Splash:
                 finish();
+                //Após 3 segundos vai abrir a mainActivity
             }
-        }, 5000);
+        }, 3000);
     }
 }

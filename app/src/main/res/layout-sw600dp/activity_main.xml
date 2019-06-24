@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutBloco1_Menu_Tablet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="-50dp"
+                android:src="@drawable/menu_quemsomos_tablet" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginRight="-50sp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/menu_acaap_tablet"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@id/relativeLayoutBloco1_Menu_Tablet"
+            android:id="@+id/relativeLayoutBloco2_mENU_Tablet"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="-50dp"
+                android:src="@drawable/menu_carnauba_tablet"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginRight="-50sp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/menu_contatos_tablet"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

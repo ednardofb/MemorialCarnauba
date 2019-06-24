@@ -14,10 +14,12 @@
         android:textAlignment="center"
         android:layout_below="@+id/slide_image"
         android:layout_width="match_parent"
-        android:textSize="17sp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
         android:layout_height="wrap_content"
         android:text="HEADING"/>
     <me.biubiubiu.justifytext.library.JustifyTextView
+        android:textColor="@color/colorPrimary"
         android:id="@+id/slide_desc"
         android:textSize="17sp"
         android:layout_marginLeft="20dp"

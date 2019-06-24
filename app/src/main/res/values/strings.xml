@@ -42,33 +42,24 @@
     <string name="Titulo_QuemFaz">Quem faz</string>
     <string name="label_QuemSomos">Quem Somos</string>
     <string name="Nome_afroMoura">Afro Moura Negrão Jr.</string>
-    <string name="Descricao_AfroMoura">Afro M. Negrão Júnior,produtor Cultural e
-        artesão, Publicitário e ambientalista com atuação em diversos segmentos e
-        veículos na área de Comunicação e Marketing. Desde 1979 atua seus trabalhos
-        voltados para a área Cultural e artística de Eventos em geral, no planejamento,
-        elaboração, execução de projetos, captação de recursos, planos de trabalhos,
-        prestação de contas, execução e gerenciamento do projeto, de acordo com o
-        planejamento estabelecido. Além de presidente do Memorial Carnauba e da Associação dos
-        Moradores Sitio Volta atua como coordenador executivo do PONTO DE CULTURA Armazém da
-        Carnaúba: Arte e Memoria desde 2011 e busca politicas públicas e administra trabalhos
-        sócio ambientais e artísticos onde as comunidades envolvidas participam e desenvolvem
-        iniciativas importantes para o seu fortalecimento. A responsabilidade em transformar
-        as dificuldades em valores faz dos movimentos culturais um elo importante entreartistas,
-        artesões, produtores rurais que cuidam do seu habitat. Afro sempre buscando inovações
-        e a valorização do terceiro Setor como braço direito do Governo Estadual.</string>
-    <string name="Descricao_Dai">Daisy de Miranda Rocha iniciou suas atividades em 1987 nas ações artísticas,
-        culturais e para o turismo. Formada em turismo iniciou nas comunidades com o turismo rural no Ceará,
-        ]principalmente nas zonas rurais de maior vulnerabilidade e falta de recursos e de políticas públicas
-        que assistem os moradores carentes e com necessidades especiais . Como voluntária em projetos e ações
-        em Jaguaruana e na região do Vale do Jaguaribe, organizando diversos trabalhos, participações em conferências,
-        feiras, seminários e reuniões de grupos de extrativistas, artistas, artesãos e produtores rurais com a missão
-        de organizar a produção e expor as peças produzidas e confeccionadas no artesanato da palha ,do talo e dopapel
-        da carnaúba no Ceará. Os projetos e editais aprovados qualificaram e multiplicaram os conhecimentos e os saberes
-        populares. Em 1990 como produtora cultural organizou diversos trabalhos gráfico-visual como a revista Ceará Magazine
-        e outras, guias turísticos, livros e editoriais sobre o Ceará. Participou de diversos projetos como: Fundação do Memorial
-        Carnaúba em 2011 em Jaguaruana, em um prédio centenário alugado no centro da cidade e reformado para esse fim cultural,
-        onde iniciou o maior projeto de valorização da cultura da carnaúba, onde foram organizados muitos momentos para a classe
-        artística do Vale do Jaguaribe com o envolvimento e participação dos municípios de Russas, Aracati, Quixeré , Palhano,
-        Limoeiro do Norte, Itaiçaba e Jaguaruana.</string>
+
     <string name="Nome_Daisy">Daisy De Miranda Rocha</string>
+    <string name="Titulo_ConhecaMemorial">Conheça o Memorial da Carnaúba</string>
+    <string name="Descricao_ConhecaMemorial">Localizado na cidade de Jaguaruana, na comunidade de Sítio Volta, no baixo Jaguaribe há 183 km da capital Fortaleza . O acesso é pela BR 116 ou pela Ce 040, até a sede do município de Jaguaruana . São mais 6 km da sede até o projeto em Sítio Volta. Conhecida como a terra da rede de dormir, Jaguaruana também é conhecida como a terra da carnaúba, do Memorial da Carnaúba – o primeiro a ser implantado no mundo e que aos poucos vem revitalizando toda a cadeia produtiva e dando esperanças as comunidades que vivem da árvore da vida, que também é o símbolo do estado.</string>
+    <string name="ACAAP">ACAAP</string>
+    <string name="o_que">O que é</string>
+    <string name="Descricao_OqueE">É uma Organização da Sociedade Civil Sem Fins Lucrativos, de utilidade pública Municipal e Estadual fundada, em junho de 2010 no município de Jaguaruana – Ceará, por iniciativa de artistas, artesãos e produtores rurais, que criaram o primeiro MEMORIAL CARNAÚBA do mundo. Visando a defesa socioambiental e buscando a implementação de políticas públicas de qualificação e de geração de emprego e renda para as famílias de baixa ou nenhuma renda do município de Jaguaruana do Vale do Jaguaribe e de todo o Ceará.</string>
+    <string name="textView_proposicao">Proposição</string>
+    <string name="DescricaoProposicao">Pesquisa em toda a cadeia produtiva: Melhoria genética da palmeira, do corte e secagem de palhas e extração do pó cerifero. Agregar mais lucro ao produtor, com a modernização da cadeia produtiva e produção de cera, celulose, artesanato. Incentivar o reflorestamento em áreas de desertificação ou devastadas e proteger os carnaubais da devastação em decorrências de outras culturas.</string>
+    <string name="textView_Projetos">Projetos</string>
+    <string name="contatos">Contatos</string>
+    <string name="Titulo_Relatos">Relatos</string>
+    <string name="Nome_projeto1">Memorial Carnaúba</string>
+    <string name="Nome_Projeto2">APL (Arranjo Produtivo Local) da Carnauba do Baixo Jaguaribe (Itaiçaba, Jaguaruana e Russas)</string>
+    <string name="Nome_Projeto3">Projeto Luz Solidaria ENEL – Carnauba: Empreendedorismo com Arte</string>
+    <string name="Nome_Projeto4">Projeto Empreendedorismo com Arte - STDS</string>
+    <string name="Carnauba">Carnaúba</string>
+    <string name="Titulo_Historia">História</string>
+    <string name="textView_DescricaoHsitoria">O Ceará é um dos maiores produtores de pó e cera de carnaúba do mundo, fato que destaca no aspecto econômico e assegura a continuidade da espécie e emprega em torno de 100.000 pessoas diretamente no campo, na produção e extrativismo todos os anos com o corte da palha, beneficiamento na indústria e preparo do sub extrato da cera para milhares de indústrias no mundo como: Farmacêutica , Alimentícia, Cosméticos , Química , Aero Espacial , Bélica , Agricultura e demais utilidades. A Carnaúba ( Copernicia Prunifera ) é uma das mais belas árvores das paisagens do nordeste brasileiro , independente da situação climática a Carnaúba resiste e se impõe majestosamente seja na aridez, nas inundações ,estiagens , sequidões e mantem os seus ciclos de nascimento e crescimento de 10 a 15 anos e vive até os 200 anos , se tiver condições necessárias, ambientais e livre dos desmatamentos causados pelo seu maior agente devastador – o homem.</string>
+
 </resources>

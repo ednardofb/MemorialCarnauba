@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuemSomos">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <RelativeLayout
+                android:paddingTop="10dp"
+                android:background="#008577"
+                android:id="@+id/relativeLayoutConhecaMemorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewConhecaMemorial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:padding="5dp"
+                    android:text="@string/Titulo_ConhecaMemorial"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textViewDescricaoConheca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:layout_below="@id/textViewConhecaMemorial"
+                    android:text="@string/Descricao_ConhecaMemorial">
+
+                </me.biubiubiu.justifytext.library.JustifyTextView>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@id/relativeLayoutConhecaMemorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutNossaHistoria"
+                >
+
+                <TextView
+                    android:id="@+id/textViewNosssaHistoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:padding="5dp"
+                    android:text="@string/Titulo_Nossa_Historia"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textViewDescricaoHistoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_below="@id/textViewNosssaHistoria"
+                    android:text="@string/Descricao_Historia"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutMissao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relativeLayoutNossaHistoria"
+                android:layout_marginTop="10dp"
+                android:background="#008577"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textViewMissao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/Titulo_Missao"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textViewDescricaoMissao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewMissao"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="44dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/Descricao_Missao"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1100dp"
+                android:layout_below="@id/relativeLayoutMissao"
+                android:layout_marginTop="10dp"
+                android:id="@+id/relativeLayoutQuemFaz">
+
+                <TextView
+                    android:id="@+id/textViewQuemFaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Titulo_QuemFaz"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal"
+                    android:id="@+id/dotsLayout"
+                    android:layout_below="@+id/textViewQuemFaz"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"></LinearLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/slideViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/dotsLayout"
+                    android:layout_marginTop="0dp">
+
+                </android.support.v4.view.ViewPager>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+</ScrollView>
